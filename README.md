@@ -6,4 +6,5 @@ Features:
 - CTCP support: VERSION and PING with flood protection
 
 Start: `nohup python3 banana.py &`
+
 Kill: `pkill -f banana.py`
