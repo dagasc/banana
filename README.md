@@ -8,3 +8,9 @@ Features:
 <b>Start</b>: `nohup python3 banana.py &`
 
 <b>Kill</b>: `pkill -f banana.py`
+
+<b>Crontab:</b>
+
+`@reboot sleep 10 && cd /path/to/script && nohup python3 banana.py >/tmp/banana.log 2>&1 &`
+
+`*/5 * * * * pgrep -f "python3 banana.py" >/dev/null || cd /path/to/script && nohup python3 banana.py >/tmp/banana.log 2>&1 &`
