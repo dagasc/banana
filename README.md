@@ -5,4 +5,5 @@ Features:
 - VHOST support via PERFORM: `/vhost <user> <pass>`
 - CTCP support: VERSION and PING with flood protection
 
-Run: `nohup python3 banana.py &`
+Start: `nohup python3 banana.py &`
+Kill: `pkill -f banana.py`
