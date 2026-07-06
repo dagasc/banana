@@ -6,4 +6,4 @@ Features:
 - CTCP support: VERSION and PING with flood protection
 
 Run:
-$ nohup python3 banana.py &
+`$ nohup python3 banana.py &`
